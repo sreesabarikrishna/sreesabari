@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glitter Heaven</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">
+           <h1> 🎸 Guitar Heaven </h1>
+        </div>
+
+        <div class="search-box">
+    <input type="text" placeholder="Search guitars...">
+    <button>🔍 Search</button>
+</div>
+        <nav class="nav-buttons">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+        </nav>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+
+    <video autoplay muted loop playsinline class="bg-video">
+        <source src="guitar-background.mp4" type="video/mp4">
+    </video>
+
+    <h1>Shine Like Never Before 🎸</h1>
+    <p>Premium Guitar For Crafts, Art, Makeup, Decoration and More.</p>
+    <a href="#products" class="btn">Shop Now</a>
+</section>
+
+<section id="products" class="products">
+    <h2>Our Guitar Collection</h2>
+
+    <div class="product-grid">
+
+        <div class="card">
+            <img src="gitter 1.png" alt="">
+            <h3>Gold Guitar</h3>
+            <p>$299</p>
+            <button class="cart-btn" onclick="addToCart()">
+              🛒 Add to Cart
+            </button>
+
+            <p id="cart-message"></p>
+
+        </div>
+
+        <div class="card">
+            <img src="gitter 2.jpg" alt="">
+            <h3>Silver Guitar</h3>
+            <p>$249</p>
+            <button class="cart-btn" onclick="addToCart()">
+              🛒 Add to Cart
+            </button>
+
+            <p id="cart-message"></p>
+
+        </div>
+
+        <div class="card">
+            <img src="gitter 3.webp" alt="">
+            <h3>Rainbow Guitar</h3>
+            <p>$399</p>
+            <button class="cart-btn" onclick="addToCart()">
+                🛒 Add to Cart
+            </button>
+
+            <p id="cart-message"></p>
+
+        </div>
+
+        <div class="card">
+            <img src="gitter 4.png" alt="">
+            <h3>Pink Guitar</h3>
+            <p>$199</p>
+            <button class="cart-btn" onclick="addToCart()">
+              🛒 Add to Cart
+            </button>
+
+           <p id="cart-message"></p>
+
+        </div>
+
+        <div class="card">
+            <img src="gitter 5.jpg" alt="">
+            <h3>Blue Guitar</h3>
+            <p>$199</p>
+            <button class="cart-btn" onclick="addToCart()">
+               🛒 Add to Cart
+             </button>
+
+            <p id="cart-message"></p>
+
+        </div>
+
+        <div class="card">
+            <img src="gitter 6.webp" alt="">
+            <h3>Red Guitar</h3>
+            <p>$499</p>
+            <button class="cart-btn" onclick="addToCart()">
+               🛒 Add to Cart
+           </button>
+
+           <p id="cart-message"></p>
+        </div>
+           
+         <div class="card">
+            <img src="guitar 7.webp" alt="">
+            <h3>Laurel Green</h3>
+            <p>$499</p>
+            <button class="cart-btn" onclick="addToCart()">
+              🛒 Add to Cart
+            </button>
+
+            <p id="cart-message"></p>
+
+        </div>
+
+         <div class="card">
+            <img src="guitar 8.webp" alt="">
+            <h3>Sleek satin black</h3>
+            <p>$499</p>
+            <button class="cart-btn" onclick="addToCart()">
+                 🛒 Add to Cart
+            </button>
+
+           <p id="cart-message"></p>
+
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <h2>Our Services</h2>
+
+    <div class="service-container">
+
+        <div class="service-box">
+            <img src="services 1.jpg" alt="Guitar Sales">
+            <h3>🎸 Guitar Sales</h3>
+            <p>Premium acoustic and electric guitars.</p>
+        </div>
+
+        <div class="service-box">
+            <img src="services 2.jpg" alt="Guitar Lessons">
+            <h3>🎵 Guitar Lessons</h3>
+            <p>Learn guitar from expert instructors.</p>
+        </div>
+
+        <div class="service-box">
+            <img src="services 3.jpg" alt="Guitar Repair">
+            <h3>🔧 Guitar Repair</h3>
+            <p>Professional repair and maintenance.</p>
+        </div>
+
+        <div class="service-box">
+            <img src="service 4.jpg" alt="Accessories">
+            <h3>🎼 Accessories</h3>
+            <p>Strings, picks, amplifiers and more.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<section class="about" id="about">
+    <div class="about-content">
+        <h2>About Us</h2>
+        <p>
+            Welcome to Guitar World! 🎸 We are passionate about helping
+            musicians find the perfect guitar. Whether you're a beginner
+            or a professional player, we offer high-quality acoustic,
+            electric, and bass guitars at affordable prices.
+        </p>
+
+        <p>
+            Our mission is to inspire music lovers through premium
+            instruments, expert guidance, guitar lessons, and repair
+            services. Join our community and start your musical journey
+            with us today.
+        </p>
+
+        <button>Learn More</button>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>🎸 Guitar World</h3>
+            <p>Your one-stop destination for guitars, accessories, lessons, and repairs.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>📞 +91 98765 43210</p>
+            <p>📧 info@guitarworld.com</p>
+            <p>📍 Kerala, India</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <a href="#">Instagram</a><br>
+            <a href="#">Facebook</a><br>
+            <a href="#">YouTube</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Guitar World. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
